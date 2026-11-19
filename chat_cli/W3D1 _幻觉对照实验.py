@@ -1,4 +1,4 @@
-"""W2-D6 · Prompt A/B 对比
+"""W3-D1 · 幻觉对照实验（裸问 vs 资料注入）
 
 同一段 JD，只换 system 提示词，看输出质量差多少。
 BAD  = 一句话指令
@@ -30,7 +30,7 @@ PROMPTS = {
             资料：
          1. 卓望公司 AI应用开发（27届校招）：北京/广州/昆明/西安，本科+，要求 Python或Java/Go一门；大模型API/Prompt；Dify/LangChain/向量库/RAG优先。
          2. 联通湖北省分公司 AI Agent开发工程师：武汉，校招本科，Python+RESTful/JSON；Dify/FastGPT/LangChain低代码；英语四级。
-         3. 美亚柏科 AI开发工程师(Agent)：广州，校招本科，Python；LangChain/AutoGPT；RAG/工具调用原理。""",          
+         3. 美亚柏科 AI开发工程师(Agent)：广州，校招本科，Python；LangChain/AutoGPT；RAG/工具调用原理。以 {"answer": "..."} 格式返回结果，answer 字段存储回答内容。以 JSON 返回，字段名 answer""",           # 五段模板，从文件读
 }
 
 
